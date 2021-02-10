@@ -1,0 +1,70 @@
+/* TODO: design your profile with CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Ubuntu+Mono:ital@1&display=swap');
+
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu Mono', monospace;*/
+
+body {
+  background: #f6f5f5;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  color: #314e52;
+}
+
+h2 {
+  font-family: 'Ubuntu Mono', monospace;
+  color: #1687a7;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 8px 300px;
+}
+
+.img-circle {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 8px;
+}
+
+.list-inline i {
+  font-size: 42px;
+  color: #314e52;
+}
+
+.list-inline i:hover {
+  color: gray;
+}
+
+#blue-btn {
+  background-color: #1687a7;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#blue-btn:hover {
+    background-color: white;
+  color: #1687a7;
+}
